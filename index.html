@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Madhan | Java Full Stack Developer</title>
+  <link rel="icon" type="image/png" sizes="16x16" href="images/website-icon.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark nav-bg fixed-top">
+
+    <div class="container">
+      <a class="navbar-brand navbar-brand-custom fw-semibold" href="#"><span class="my-color-M">M</span>adhan</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item mx-2"><a class="nav-link " href="#home">Home</a></li>
+          <li class="nav-item mx-2"><a class="nav-link " href="#about">About</a></li>
+          <li class="nav-item mx-2"><a class="nav-link " href="#resume">Resume</a></li>
+          <li class="nav-item mx-2"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item mx-2"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item mx-2"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="py-5">
+    <div class="container home-container">
+      <div class="row">
+        <div class="col-md-6 home-col-1">
+          <p class="my-color fs-5 mb-3">Hello, Welcome</p>
+          <h1 class="text-white mb-4 h1-home">I'm <span class="my-color" id="home-span">M</span>adhan</h1>
+          <p class="text-home">As a fresher Java Full Stack Developer, I love building real-world web applications while
+            continuously learning and improving my development skills.</p>
+          <a href="#contact" class="btn btn-custom-home pt-2 fw-semibold mt-3">Hire Me</a>
+        </div>
+
+        <div class="col-md-6 text-center">
+          <div class="custom-frame-1">
+            <img src="images/image-1.jpg" alt="Profile" class="profile-pic-1">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-5 ">
+    <div class="container about-container">
+      <div class="row">
+        <div class="col-md-6 text-center">
+          <div class="custom-frame">
+            <img src="images/image-2.jpg" alt="Profile" class="profile-pic">
+          </div>
+        </div>
+        <div class="col-md-6 col-text">
+          <h2 class=" mb-4 fw-semibold text-white">About <span class="my-color">Me</span></h2>
+          <p>I am a passionate fresher Java Full Stack Developer skilled in Java, Spring Boot, MySQL, HTML, CSS and
+            JavaScript.</p>
+          <p>I enjoy building responsive web applications and learning new technologies.</p>
+          <a href="#contact" class="btn btn-custom-about pt-2 fw-semibold mt-4">Contact Me</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resume Section -->
+  <section id="resume" class="py-5">
+    <div class="container resume-container">
+      <h2 class="text-center text-white mb-4 h2-underline">My <span class="my-color">Resume</span></h2>
+
+      <!-- Summary -->
+      <div class="mb-5 Summary">
+        <div class="row">
+          <h3 class="text-white">Summary</h3>
+          <div class="col-md-9">
+            <p class="mt-4">Java Full Stack Developer with expertise in Spring Boot, Thymeleaf, MySQL, and responsive
+              frontend design. Proficient in creating full-stack web apps, building APIs, and solving real-world coding
+              challenges.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+
+        <!-- Education Card -->
+        <div class="col-md-6">
+          <div class="card rounded col-bg p-4 h-100">
+            <h3 class="card-title fw-semibold text-white mb-5 "><i class="fas fa-graduation-cap fs-3 me-2 my-color"
+                style="color: #00ffff;"></i>Education</h3>
+            <p class="card-subtitle fw-bold mb-2" id="resume-p">UG - B.Sc. in Information Technology</p>
+            <p class="card-text">2021 - 2024</p>
+            <p class="card-text">T.D.M.N.S College, T. Kallikulam.</p>
+            <p class="card-text">Focused on core subjects like Data Structures, Web Technologies, Database Management
+              Systems, and Software Engineering. Built academic projects using Java and MySQL.</p>
+          </div>
+        </div>
+
+        <!-- Certification Card -->
+        <div class="col-md-6">
+          <div class="card rounded col-bg  p-4 h-100">
+            <h3 class="card-title fw-semibold text-white mb-5"><i class="fas fa-certificate fs-3 me-2 my-color"
+                style="color: #504dff;"></i>Certification</h3>
+            <p class="card-subtitle fw-bold mb-2" id="resume-p">Java Full Stack Development</p>
+            <p class="card-text">16 October 2024 – 12 February 2025</p>
+            <p class="card-text">Oranium Tech – Leading IT Academy, Chennai.</p>
+            <p class="card-text">Gained hands-on training in Spring Boot, Thymeleaf, RESTful APIs, MySQL, HTML, CSS,
+              JavaScript, and Git. Developed a full-stack e-commerce web application as part of capstone project.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="py-5">
+    <div class="container skill">
+      <h2 class="text-center mb-4 fw-semibold">Skills</h2>
+      <div class="row text-center mt-5 g-4">
+        <div class="col-md-4 ">
+          <div class="p-4 col-bg rounded card">
+            <i class="fab fa-java fa-3x i-custom mb-4" id="java" style="color: #f89820;"></i>
+            <h3 class="fw-semibold text-white">Java</h3>
+            <p>Good understanding of OOP, exception handling, and collections framework.</p>
+          </div>
+        </div>
+
+        <div class="col-md-4 ">
+          <div class="p-4 col-bg rounded card">
+            <i class="fas fa-leaf fa-3x  mb-4" style="color: #6db33f;"></i>
+            <h3 class="fw-semibold text-white">Spring Boot</h3>
+            <p>Built RESTful APIs, CRUD operations using Spring Data JPA and annotations.</p>
+          </div>
+        </div>
+
+        <div class="col-md-4 ">
+          <div class=" p-4 col-bg rounded card">
+            <i class="fas fa-code fa-3x  mb-4" style="color: #005f99;"></i>
+            <h3 class="fw-semibold text-white">Thymeleaf</h3>
+            <p>Created dynamic HTML pages with model binding, Spring MVC integration.</p>
+          </div>
+        </div>
+
+        <div class="col-md-4 ">
+          <div class=" p-4 col-bg rounded card">
+            <i class="fas fa-database fa-3x mb-4" style="color: #00758f;"></i>
+            <h3 class="fw-semibold text-white">MySQL</h3>
+            <p>Experienced in writing SQL queries and managing relational databases.</p>
+          </div>
+        </div>
+
+        <div class="col-md-4 ">
+          <div class=" p-4 col-bg rounded card">
+            <i class="fab fa-html5 fa-3x mb-4" style="color: #e34c26;"></i>
+            <h3 class="fw-semibold text-white">HTML & CSS</h3>
+            <p>Designed responsive layouts using HTML, CSS, and Bootstrap framework.</p>
+          </div>
+        </div>
+
+        <div class="col-md-4 ">
+          <div class=" p-4 col-bg rounded card">
+            <i class="fab fa-js-square fa-3x mb-4" style="color: #f7df1e;"></i>
+            <h3 class="fw-semibold text-white">JavaScript</h3>
+            <p>Used for DOM manipulation, form validation, and event-based interaction.</p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class=" p-4 col-bg rounded card">
+            <i class="fab fa-git-alt fa-3x mb-4" style="color: #f05032;"></i>
+            <h3 class="fw-semibold text-white">Git & GitHub</h3>
+            <p>Version control with Git, pushing code to GitHub, pull requests & branches.</p>
+          </div>
+        </div>
+
+        <div class="col-md-4 ">
+          <div class=" p-4 col-bg rounded card">
+            <i class="fas fa-plug fa-3x mb-4" style="color: #3498db;"></i>
+            <h3 class="fw-semibold text-white">REST APIs</h3>
+            <p>Developed REST endpoints with JSON data using Spring Boot and Postman.</p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class=" p-4 col-bg rounded card">
+            <i class="fab fa-bootstrap fa-3x mb-4" style="color: #7952b3;"></i>
+            <h3 class="fw-semibold text-white">Bootstrap</h3>
+            <p>Used Bootstrap for responsive design, grid layout, forms, and buttons.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="py-5">
+    <div class="container project-container">
+      <h2 class="text-center fw-semibold  my-color">Projects</h2>
+      <div class="row mt-5 g-4">
+        <div class="col-md-6">
+          <div class="col-bg rounded card h-100">
+            <img src="images/project-1.png" class="card-img">
+            <div class="card-body">
+              <h5 class="card-title fw-semibold text-white">E-Commerce App</h5>
+              <p class="card-text mt-3">Spring Boot + Thymeleaf + MySQL | Full-stack shopping cart app.</p>
+              <a href="#" class="btn btn-custom btn-sm fw-semibold">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="card col-bg rounded h-100">
+            <img src="images/project-2.png" class="card-img">
+            <div class="card-body">
+              <h5 class="card-title fw-semibold text-white">Portfolio Website</h5>
+              <p class="card-text mt-3">HTML + CSS + JS | Designed to showcase skills, projects, and with smooth
+                transitions and a dark UI.</p>
+              <a href="#" class="btn btn-custom btn-sm fw-semibold">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5">
+    <div class="container contact-container">
+      <h2 class="text-center mb-5 text-white">Contact <span class="my-color">Me</span></h2>
+      <div class="row justify-content-center">
+        <div class="col-md-4 col-md-8">
+          <p class="text-center">I'm always excited to take on new challenges. Whether it’s a project, collaboration, or
+            opportunity feel free to reach out and say hello!</p>
+        </div>
+      </div>
+
+      <div class="row justify-content-center mt-3 g-4">
+        <div class="col-md-6">
+          <div class="mb-3 d-flex">
+            <div>
+              <h5 class="fw-semibold my-color fs-5">Address:</h5>
+            </div>
+            <div class="ms-3">
+              <p id="cp">22 East Street Pattarpuram, Tirunelveli<br>Tamil nadu, 627101</p>
+            </div>
+          </div>
+
+          <div class="mb-3 d-flex">
+            <div>
+              <h5 class="fw-semibold my-color fs-5">Phone:</h5>
+            </div>
+            <div class="ms-3">
+              <p id="cp">+91 9385617530</p>
+            </div>
+          </div>
+
+          <div class="mb-3 d-flex">
+            <div>
+              <h5 class="fw-semibold my-color fs-5">E mail:</h5>
+            </div>
+            <div class="ms-3">
+              <p id="cp">madhank712003@gmail.com</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <form onsubmit="return showMessage();">
+            <div class="mb-3">
+              <input type="text" class="form-control" id="input" placeholder="Your Name" required>
+            </div>
+            <div class="mb-3">
+              <input type="email" class="form-control" id="input" placeholder="Your Email" required>
+            </div>
+            <div class="mb-3">
+              <textarea class="form-control" rows="4" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-custom-send btn-sm">Send</button>
+          </form>
+        </div>
+        <div class="col-md-4">
+          <div id="message" class="alert text-home text-center mt-3 d-none"><span class="my-color">Thank you!
+            </span>I’ll get back to you soon...</div>
+        </div>
+      </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-3">
+    <p class="m-auto">&copy; 2025 Madhan | Java Full Stack Developer</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
