@@ -92,14 +92,14 @@ body {
 }
 
 .nav-link::after{
-    content: '';
-    width: 0;
-    height: 3px;
-    background: #ff004f;
-    position: absolute;
-    left: 8px;
-    top: 29px;
-    transition: 0.5s;
+  content: '';
+  width: 0;
+  height: 3px;
+  background: #ff004f;
+  position: absolute;
+  left: 8px;
+  top: 29px;
+  transition: 0.5s;
 }
 
 .nav-link:hover::after{
@@ -155,10 +155,10 @@ body {
   left: -33px;
   width: 100%;
   height: 470px;
-  border-right: 11px solid rgb(247, 10, 81);   /* Yellow right border */
+  border-right: 11px solid rgb(247, 10, 81);
   border-left: 11px solid rgb(247, 10, 81);
   border-top: 11px solid rgb(247, 10, 81);
-  border-bottom: 11px solid rgb(247, 10, 81);  /* Yellow bottom border */
+  border-bottom: 11px solid rgb(247, 10, 81);
   border-radius: 20px;
   z-index: 1;
 }
@@ -305,14 +305,14 @@ body {
 }
 
 .form-control {
-    background-color: rgb(10, 10, 10);
-    color: #fff ;    
-    border: 1px solid  rgba(182, 181, 181, 0.445)
+  background-color: rgb(10, 10, 10);
+  color: #fff ;    
+  border: 1px solid  rgba(182, 181, 181, 0.445)
   }
 
 #input{
-    width: 350px;
-    height: 42px;
+  width: 350px;
+  height: 42px;
   }
 
 .form-control::placeholder {
@@ -320,10 +320,10 @@ body {
   }
 
 .form-control:focus {
-    border-color: #f7f5f6de;
-    box-shadow: 0 0 0 0.25rem rgba(185, 3, 58, 0.616);
-    background-color: rgb(10, 10, 10);
-    color: #fff;
+  border-color: #f7f5f6de;
+  box-shadow: 0 0 0 0.25rem rgba(185, 3, 58, 0.616);
+  background-color: rgb(10, 10, 10);
+  color: #fff;
   }
 
 .btn-custom-send{
