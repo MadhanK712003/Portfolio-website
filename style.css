@@ -201,6 +201,34 @@ body {
   color: rgb(247, 10, 81);  
 }
 
+#java{
+  color: #f89820;
+}
+#spring{
+  color: #6db33f;
+}
+#Thymeleaf{
+  color: #005f99;
+}
+#MySQL{
+  color: #00758f;
+}
+#HTML & CSS{
+  color: #e34c26;
+}
+#JavaScript{
+  color: #f7df1e;
+}
+#GitHub{
+  color: #f05032;
+}
+#REST{
+  color: #3498db;
+}
+#Bootstrap{
+  color: #7952b3;
+}
+
 /* Project */
 
 #projects{
