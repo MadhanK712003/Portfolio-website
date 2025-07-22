@@ -7,7 +7,6 @@ function showMessage() {
   return false;
 }
 
-
 const sections = document.querySelectorAll("section");
 const navLinks = document.querySelectorAll(".nav-link");
 window.addEventListener("scroll", () => {
